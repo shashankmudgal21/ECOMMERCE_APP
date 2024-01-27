@@ -1,0 +1,28 @@
+.form-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 80vh;
+    background: linear-gradient(rgb(123, 123, 168),rgb(210, 142, 142),rgb(216, 149, 160));
+}
+.form-container .form-box input{
+    padding: 5px 16px;
+    border-radius: 0;
+    border-bottom: 2px solid black;
+    color: black;
+}
+.login_btn{
+    width: 250px;
+    border-radius: 0;
+    background-color: black;
+    color: white;
+}
+.form-box{
+    text-align: center;
+    box-shadow: -1px 5px 9px 8px rgb(54, 53, 53);
+    padding: 17px;
+    width: 274px;
+    background-color: white;
+
+}
